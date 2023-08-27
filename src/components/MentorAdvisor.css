@@ -1,0 +1,37 @@
+.mentor-advisor .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+     padding: 2rem ;
+     color: #793FDF;
+}
+.profile-picture {
+    display: flex;
+     height: 20rem;
+    width: 15rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0; 
+}
+img{
+    width: 10rem;
+    border-radius: 50%;
+}
+.message a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 1rem;
+    transition: background-color 0.7s ease;
+    -webkit-transition: background-color 0.7s ease;
+    -moz-transition: background-color 0.7s ease;
+    -ms-transition: background-color 0.7s ease;
+    -o-transition: background-color 0.7s ease;
+}
+.message:hover a{
+    background-color: green;
+    color: aliceblue;
+    cursor: pointer;
+}

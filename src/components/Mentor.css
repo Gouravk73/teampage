@@ -1,0 +1,28 @@
+.mentor{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+     padding: 2rem ;
+     color: #793FDF;
+}
+.mentor button{
+    border: none;
+    background: none;
+    outline: none;
+ }
+ 
+.mentor .profile-picture img{
+    width: 10rem;
+    border-radius: 50%;
+}
+.profile-picture{
+    display: flex;
+     height: 18rem;
+    width: 15rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
